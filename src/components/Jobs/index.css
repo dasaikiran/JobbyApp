@@ -1,0 +1,143 @@
+.jobs-container {
+  min-height: 88vh;
+  background-color: #000000;
+  color: white;
+  padding: 30px;
+  display: flex;
+}
+
+.profile-items-container {
+  width: 30%;
+  padding: 10px;
+  margin-right: 10px;
+}
+.jobs-search-container {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-loader-container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobsList-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.search-input-container {
+  align-self: flex-start;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #cbd5e1;
+  padding-left: 10px;
+  display: flex;
+}
+
+.search-input {
+  width: 300px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  color: #cbd5e1;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.search-button {
+  background-color: #202020;
+  border-width: 0px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  color: white;
+}
+
+.no-jobs-heading {
+  margin: 5px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  color: white;
+  background-color: #000000;
+}
+.failure-image {
+  width: 400px;
+}
+
+.retry-button {
+  margin-left: auto 0px;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #cbd5e1;
+  border-width: 0px;
+  background-color: #6366f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employment-type-container {
+  display: flex;
+  flex-direction: column;
+  border-width: 0px;
+  padding-bottom: 15px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.emp-li-input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.salary-type-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.sal-li-input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.li-heading {
+  font-weight: bold;
+  font-size: 15px;
+}

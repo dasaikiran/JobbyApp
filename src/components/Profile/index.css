@@ -1,0 +1,28 @@
+.failure-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 214px;
+}
+
+.profile-container {
+  background-color: #b6c5ff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+.profile-image {
+  width: 50px;
+}
+.profile-heading {
+  margin-bottom: 5px;
+  color: #6366f1;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 214px;
+}
